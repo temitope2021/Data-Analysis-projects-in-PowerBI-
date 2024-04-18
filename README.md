@@ -75,6 +75,8 @@ Based on the annual income, customer is eligible for membership cards as per the
 Card type = IF(AdventureWorks_Customers[AnnualIncome]<70000, "No card", 
 		IF(AdventureWorks_Customers[AnnualIncome]<90000, "Silver card",
 		IF(AdventureWorks_Customers[AnnualIncome]<1400000, "Gold card", IF(AdventureWorks_Customers[AnnualIncome]>1400000, "Platinum card"))))
+  ![](Card_type.png) 
+
 
 
 
