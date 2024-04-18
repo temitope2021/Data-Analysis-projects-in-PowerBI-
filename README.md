@@ -52,8 +52,29 @@ Code: Alert message = If(sales(days remaining)<10, "you are due", "you are still
 
 
 ### Case Studies B
-   ## Text Functions Project:
+   ## Logical Functions Project:
 
+Problem Statement:
+Map the dates in the sales table to it corresponding day of the week.
+Monday to Friday = Weekday
+Saturday and Sunday = Weekend
+
+Code: Week status = Code: Week status =IF(Sales(day of the week)>5, “weekend”, “weekday”)
+![](Week_status.png) 
+
+
+
+Nested IF
+Problem Statement: 
+Based on the annual income, customer is eligible for membership cards as per the criteria below…
+<70000 = No card
+<90000 = Silver card
+<140000 = Gold card 
+>140000 = Platinum card
+
+Card type = IF(AdventureWorks_Customers[AnnualIncome]<70000, "No card", 
+		IF(AdventureWorks_Customers[AnnualIncome]<90000, "Silver card",
+		IF(AdventureWorks_Customers[AnnualIncome]<1400000, "Gold card", IF(AdventureWorks_Customers[AnnualIncome]>1400000, "Platinum card"))))
 
 
 
