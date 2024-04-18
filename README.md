@@ -64,12 +64,17 @@ Code: Week status = Code: Week status =IF(Sales(day of the week)>5, “weekend�
 
 
 
-Nested IF
+#### Nested IF
+
 Problem Statement: 
 Based on the annual income, customer is eligible for membership cards as per the criteria below…
+
 <70000 = No card
+
 <90000 = Silver card
+
 <140000 = Gold card 
+
 >140000 = Platinum card
 
 Code: Card type = IF(AdventureWorks_Customers[AnnualIncome]<70000, "No card", 
