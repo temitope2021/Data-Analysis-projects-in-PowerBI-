@@ -3,12 +3,12 @@ Welcome to my GitHub repository which is dedicated to examining various case stu
 
 ## Project Scope:
 Objective: This is to analyze and demonstrate the use of DAX functions in real world scenarios through through case studies.
-Tool: Microsoft Power BI will be utilized for implementing DAX formulas and visulizing the results.
+Tool: Microsoft Power BI will be utilized for implementing DAX formulas and visualizing the results.
 Case Studies: I will present multiple case studies showcasing the versatility and power of DAX in solving analytical challenges.
 
 ## Key Features:
 1. Case Study Selection: Curate a diverse set of case studies highlighting different aspects of DAX functions.
-2. DAX Implementation: Demonstrate the step by step application of DAX.
+2. DAX Implementation: Demonstrate the step-by-step application of DAX.
 
    ### Case Studies A
    
@@ -30,7 +30,7 @@ Determine the service expiry of a product whose validity is 6 months from the da
 
 Code: Expiry date = EDATE(sales(orderDate),6
 
-6 represent months from the date of ordering
+6 represent months from the date of ordering.
 ![](Edate_Expirydate&time.jpg)  
 
 
