@@ -1,5 +1,5 @@
 # Exploring DAX in Power BI - Project Overview
-Welcome to my GitHub repository which is dedicated to examine various case studies of Data Analysis Expressions (DAX) in Power BI. This project aims to showcase the practical application of DAX formulas for data modeling,analysis and visualization within the Power BI environment.
+Welcome to my GitHub repository which is dedicated to examining various case studies of Data Analysis Expressions (DAX) in Power BI. This project aims to showcase the practical application of DAX formulas for data modeling,analysis and visualization within the Power BI environment.
 
 ## Project Scope:
 Objective: This is to analyze and demonstrate the use of DAX functions in real world scenarios through through case studies.
