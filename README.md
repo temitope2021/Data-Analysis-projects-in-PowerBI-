@@ -93,6 +93,13 @@ Code: Target customers = If(AND(AdventureWorks_Customers[AnnualIncome]>=100000, 
 ![](Target_customer.png)
 
 
+Gender Class
+Code: Gender class = IFERROR(SWITCH(AdventureWorks_Customers[Gender], "M","Male", "F" ,"Female", "NA", "Not Specified"), "Not Found")
+
+![](Gender_class.png)
+
+
+
 
 
 
