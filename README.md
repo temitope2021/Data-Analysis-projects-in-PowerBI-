@@ -85,6 +85,15 @@ Code: Card type = IF(AdventureWorks_Customers[AnnualIncome]<70000, "No card",
   ![](Card_type.png) 
 
 
+  Problem Statement: 
+Based on the annual income greater than 100000 and customer’s marital status is single, “qualified”, otherwise “not qualified”.
+
+Code: Target customers = If(AND(AdventureWorks_Customers[AnnualIncome]>=100000, AdventureWorks_Customers[MaritalStatus]="S"), "Qualified", "Not qualified")
+
+![](Target_customer.png)
+
+
+
 
 
 
